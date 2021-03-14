@@ -6,7 +6,7 @@
 
     <groupId>com.pro100kryto.server.modules</groupId>
     <artifactId>DatabaseMongoModule</artifactId>
-    <version>0.1</version>
+    <version>1.0-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -17,20 +17,17 @@
         <dependency>
             <groupId>com.pro100kryto.server</groupId>
             <artifactId>Server</artifactId>
-            <scope>provided</scope>
-            <version>[0.1, 0.2)</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sun.istack</groupId>
-            <artifactId>istack-commons-runtime</artifactId>
-            <scope>provided</scope>
-            <version>4.0.0</version>
+            <version>[0.2.0-SNAPSHOT, 0.3.0)</version>
         </dependency>
         <dependency>
             <groupId>com.pro100kryto.server.modules</groupId>
             <artifactId>DatabaseMongoModule-connection</artifactId>
-            <version>0.1</version>
-            <scope>compile</scope>
+            <version>[1.0-SNAPSHOT, 2.0)</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>13.0</version>
         </dependency>
         <dependency>
             <groupId>org.mongodb</groupId>
